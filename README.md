@@ -12,7 +12,6 @@ For example, unbox tutorial project.
 
 ```
 truffle unbox pet-shop
+truffle unbox react
 ```
-
-
 
