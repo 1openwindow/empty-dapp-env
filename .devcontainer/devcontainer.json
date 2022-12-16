@@ -4,9 +4,15 @@
   "name": "Web3",
   "image": "williamxin/web3img:latest",
   // Add the IDs of extensions you want installed when the container is created.
-  "extensions": ["juanblanco.solidity", "trufflesuite-csi.truffle-vscode"],
+  "extensions": [
+    "juanblanco.solidity",
+    "trufflesuite-csi.truffle-vscode"
+  ],
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  "forwardPorts": [3000, 8545],
+  "forwardPorts": [
+    3000,
+    8545
+  ],
   // add labels
   "portsAttributes": {
     "3000": {
@@ -21,5 +27,5 @@
   "hostRequirements": {
     "cpus": 4
   },
-  "postCreateCommand": "truffle unbox react"
+  "postCreateCommand": "truffle unbox lijie-lee/react-pipeline-box --force"
 }
